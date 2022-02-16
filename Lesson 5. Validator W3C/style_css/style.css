@@ -1,0 +1,142 @@
+/* 1. Создать файл стилей и подключить к каждой странице. */
+/* 2. Для всего сайта задать разновидность шрифта: */
+
+/* ---------- Стили основных блоков страницы ---------- */
+/* Начертание страницы по всей ширине экрана: */
+.pageField {
+    margin: none;
+    padding: none;
+    font-family: sans-serif;
+    border: 2px solid darkred;
+}
+
+/* Начертание полей страницы, сдивиг относительно левого и правого края */
+.pageFields {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Форматирование заголовка страницы и его элементов */
+.headerPage {
+    border: 2px solid rebeccapurple;
+}
+
+/* Стиль главного меню */
+.mainMenu {
+    border: 2px solid green;
+}
+
+.textBanner {
+    border: 2px solid skyblue;
+    margin-bottom: 100px;
+    width: 420px;
+}
+
+/* Стиль текстового банера */
+.textBanner {
+    color: #1F3F68;
+}
+
+.h1 {
+    font-size: 64px;
+}
+
+.textBanner > .paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+/* Форматирование блока с содержимым страницы */
+.contentPage {
+    margin-top: 20px;
+    border: 2px solid rebeccapurple;
+}
+
+.blockAfterContentPage {
+    margin-top: 20px;
+    border: 2px solid red;
+}
+
+/* Форматирование футера */ 
+.footerPage {
+    margin-top: 20px;
+    border: 1px dashed rebeccapurple;
+}
+
+.upFooter {
+    border: 2px solid gray;
+}
+
+.textUpFooter {
+    margin: 20px 0px;
+    /* margin-right: 200px; */
+    width: 30%;
+    border: 2px solid rgb(202, 114, 243);
+}
+
+.downFooter {
+    border: 2px solid rgb(177, 236, 88);
+}
+
+.downFooter > p {
+    border: 2px solid darkgray;
+    margin-bottom: 20px;
+}
+
+/* ---------- Стили повторяющихся и уникальных элементов страниц ---------- */
+
+/* Класс для всех параграфов */
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+/* Стиль для заголовка h2 (на странице контакты) */
+.contact_header_lvl_2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+/* Стиль для заголовка h3: */
+.header_lvl_3 {
+    font-size: 36px;
+    text-align: center;
+}
+/* Стиль для заголовка h4: */
+.header_lvl_4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+/* Стиль для поля ввода (input, textarea): */
+.text_input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+/* Кнопке отправки формы присвоить класс и к нему стиль:*/
+.btn_style {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+/* ----------------- Стиль для левого и правого блока страницы "Контакты" ----------------- */
+.contentPageLeftBlock {
+    border: 1px dashed blue;
+}
+
+.contentPageRightBlock {
+    border: 1px dashed red;
+}

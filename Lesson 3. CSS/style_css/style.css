@@ -1,0 +1,51 @@
+/* 1. Создать файл стилей и подключить к каждой странице. */
+/* 2. Для всего сайта задать разновидность шрифта: */
+.font_all_element {
+    font-family: sans-serif;
+}
+/* 3. Для всех параграфов присвоить класс и задать стили */
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+/* 4. Для заголовка h1 создать класс и присвоить стили: */
+.header_lvl_1 {
+    font-size: 64px;
+    color: #1F3F68;
+}
+/* 5. Для заголовка h2 (на странице контакты) создать класс и присвоить стили: */
+.contact_header_lvl_2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+/* 6. Заголовку h3 создать класс и задать стили: */
+.header_lvl_3 {
+    font-size: 36px;
+    text-align: center;
+}
+/* 7. Заголовкам h4 создать класс и задать стили */
+.header_lvl_4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+/* 8. Для всех полей ввода (input, textarea) задать общий класс и к нему стили: */
+.text_input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+/* 9. Кнопке отправки формы присвоить класс и к нему стиль:*/
+.btn_style {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+}

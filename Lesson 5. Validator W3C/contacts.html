@@ -1,0 +1,100 @@
+<!-- 4. Создать страницу: “Контакты” (при создании папок и страниц, использовать только английские буквы) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <!-- Подключение файла CSS-->
+    <link rel="stylesheet" href="./style_css/style.css">
+</head>
+
+<body>
+    <div class="pageField">
+        <div class="pageFields">
+            <!--  5. Страница "Контакты":  -->
+            <div class="headerPage">
+                <!-- Меню сайта / шапка сайта -->
+                <ul id="menu">
+                    <li><a href="./index.html">Home pages</a></li>
+                    <li><a href="./contacts.html">Contacts</a></li>
+                    <li><a href="./products/product.html">Product</a></li>
+                </ul>
+                <!-- Заголовок Contact Us (h2) -->
+                <h2 class="contact_header_lvl_2">Contact Us</h2>
+                <!-- Параграф с произвольным текстом не более 10 символов -->
+                <p class="paragraph">Lorem ...</p>
+            </div>
+            <!-- Содержимое страницы: -->
+            <div class="contentPage">
+                <div class="contentPageLeftBlock">
+                    <!-- Произвольное изображение (не более 350px) -->
+                    <img src="./img_pages/contact_pages.gif" alt="contacts_image">
+                    <!--Заголовок Address (h4) -->
+                    <h4>Address</h4>
+                    <!-- Параграф с произвольным текстом не более 7 символов -->
+                    <p class="paragraph">Lor...</p>
+                    <!-- Заголовок Phone (h4) -->
+                    <h4 class="header_lvl_4">Phone</h4>
+                    <!-- Список из 2х номеров телефонов -->
+                    <ol>
+                        <li>+7(123)456-78-90</li>
+                        <li>+7(012)345-67-89</li>
+                    </ol>
+                    <!-- Заголовок Online service (h4) -->
+                    <h4 class="header_lvl_4">Online service</h4>
+                    <!-- Список из 2х ссылок на сайт и почту (произвольный адрес и номер телефона) -->
+                    <ol>
+                        <li><a href="https://gb.ru/" target="_blank">example link (gb.ru)...</a></li>
+                        <li><a href="mailto:support@geekbrains.ru">example link (support@geekbrains.ru)...</a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="contentPageRightBlock">
+                    <!-- Заголовок Send us message (h4) -->
+                    <h4 class="header_lvl_4">Send us message</h4>
+                    <!-- Текст Full Name и текстовое поле ввода -->
+                    <form action="#">
+                        Full name: <input type="text" placeholder="Ivan Ivanocich Ivanov" class="text_input"><br>
+                        Gender:
+                        Male <input type="radio" name="male" class=".ext_input" checked>
+                        Female <input type="radio" name="male" class="text_input"><br>
+                        E-mail: <input type="email" placeholder="example@domain.checkbox" class="text_input"><br>
+                        Message: <br><textarea cols="30" rows="5" class="text_input"></textarea><br>
+                        <button type="submit" class="btn_style">Submit</button>
+                        <button type="reset" class="btn_style">Reset</button>
+                    </form><br>
+                </div>
+            </div>
+            <div class="blockAfterContentPage">
+                <!-- Интерактивная яндекс карта type="text/javascript" charset="utf-8" -->
+                <script async
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A23c4b29307fa946a48f7f9aa130603a0bc75c9b4cfd6d285d9d0ccff2ff37a8b&amp;width=590&amp;height=415&amp;lang=ru_RU&amp;scroll=true">
+                    </script>
+            </div>
+            <!-- Содержимое страницы: -->
+            <div class="footerPage">
+                <!-- Подвал сайта -->
+                <div class="upFooter">
+                    <h3 class="header_lvl_3">Heading 3</h3>
+                    <P class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                    <!-- <p class="paragraph">Example anchor: <a href="#menu">top</a>.</p> -->
+                </div>
+                <hr>
+                <div class="downFooter">
+                    <p class="paragraph">Contacts:</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit...</li>
+                        <li>+7&nbsp;(123)&nbsp;456-78-90</li>
+                        <li>example@domain.com</li>
+                    </ul>
+                    <p class="paragraph">&copy;&nbsp;&laquo;All right reserved&raquo;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
